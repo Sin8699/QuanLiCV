@@ -1,0 +1,37 @@
+.App {
+  margin: auto;
+  max-width: 1300px;
+  text-align: center;
+}
+
+.App .title {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 20px 0;
+}
+.App .contain {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.App .contain .right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.App .control {
+  display: flex;
+  margin: 20px 0;
+}
+
+.App .addWork {
+  background: royalblue;
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  width: 150px;
+  padding: 5px 10px;
+  border: 1px solid gainsboro;
+}
